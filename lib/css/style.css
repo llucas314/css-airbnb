@@ -67,3 +67,13 @@ button {
 .picbox {
 	position: relative;
 }
+@media screen and (max-width: 600px){
+	body {width: 100%;
+	}
+	img{
+	margin: 7px;
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	}
+}
